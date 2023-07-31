@@ -1,0 +1,2 @@
+# object
+my object work
