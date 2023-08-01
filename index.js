@@ -1,3 +1,4 @@
+``` script
 let obj = {
     name : "alisher",
     age   : 21,
@@ -14,7 +15,7 @@ let obj = {
  obj["age"] = 23;
  console.log(obj.name)
  console.log(obj)
-
+```
  let ans = Object.keys(obj);
  console.log(ans)
  for(let value of ans){
