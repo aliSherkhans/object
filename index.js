@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // let obj = {
 //     name : "alisher",
 //     age   : 21,
@@ -20,6 +21,31 @@
 //  for(let value of ans){
 //     console.log(value)
 //  }
+=======
+``` script
+let obj = {
+    name : "alisher",
+    age   : 21,
+    mubail : 9649287338,
+    address : {
+        city : "ladnun",
+        pincode : 341306
+    }
+ }
+ console.log(obj)
+ console.log(obj.name,obj.age , obj.mubail, obj.address.city , obj.address.pincode)
+ console.log(obj["name"],obj["age"],obj["mubail"],obj["address"]["city"],obj["address"]["pincode"])
+ obj.name = "ali";
+ obj["age"] = 23;
+ console.log(obj.name)
+ console.log(obj)
+```
+ let ans = Object.keys(obj);
+ console.log(ans)
+ for(let value of ans){
+    console.log(value)
+ }
+>>>>>>> b02f45d1aa3fc472fe6c04e75edf78aabfb98f1b
 
 //  let ans1 = Object.values(obj);
 //  console.log(ans1)
@@ -133,6 +159,7 @@ for(let i = 0 ; i< arr.length ; i++){
         dupliket = arr[i];
         count++
     }
+<<<<<<< HEAD
       
       console.log(dupliket)
 }
@@ -143,3 +170,7 @@ for(let i = 0 ; i< arr.length ; i++){
 // To isme total 3 numbers duplicate hai Jo firse repeat hue hai 1,2 and 5
 
 // Ye questions krne hai. 30 minutes hai. 8:30 se revision class start krunga. Tb tak ye questions solve kro
+=======
+ }
+}
+>>>>>>> b02f45d1aa3fc472fe6c04e75edf78aabfb98f1b
